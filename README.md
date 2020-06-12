@@ -225,7 +225,7 @@ Neural Network Prediction: 9 (digit 9)
 ![plot](Figure/predict9(1).jpg)
 
 
-## Wrong Prediction
+### Wrong Prediction
 Neural Network Prediction: 6 (digit 6)  
 ![plot](Figure/wrong4.jpg)
 
