@@ -189,45 +189,40 @@ Initial dataset:
 
 ### Correct Prediction
 Neural Network Prediction: 0 (digit 0)  
-![plot](Figure/predict0.jpg) ![plot](Figure/predict0(1).jpg)
 <img src="https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict0.jpg" width="425"/> <img src="https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict0(1).jpg" width ="425"/>
 
 Neural Network Prediction: 1 (digit 1)  
-![plot](Figure/predict1.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict1.jpg" width="425"/>
 
 Neural Network Prediction: 2 (digit 2)  
-![plot](Figure/predict2.jpg)
-![plot](Figure/predict2(1).jpg)
-![plot](Figure/predict2(2).jpg)
-![plot](Figure/predict2(3).jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict2.jpg" width="425"/> <img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict2(1).jpg" width="425"/>
+
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict2(2).jpg" width="425"/> <img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict2(3).jpg" width="425"/>
 
 Neural Network Prediction: 3 (digit 3)  
-![plot](Figure/predict3.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict3.jpg" width="425"/>
 
 Neural Network Prediction: 4 (digit 4)  
-![plot](Figure/predict4.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict4.jpg" width="425"/>
 
 Neural Network Prediction: 5 (digit 5)  
-![plot](Figure/predict5.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict5.jpg" width="425"/>
 
 Neural Network Prediction: 6 (digit 6)  
-![plot](Figure/predict6.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict6.jpg" width="425"/>
 
 Neural Network Prediction: 7 (digit 7)  
-![plot](Figure/predict7.jpg)
-![plot](Figure/predict7(1).jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict7.jpg" width="425"/> <img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict7(1).jpg" width="425"/>
 
 Neural Network Prediction: 8 (digit 8)  
-![plot](Figure/predict8.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict8.jpg" width="425"/>
 
 Neural Network Prediction: 9 (digit 9)  
-![plot](Figure/predict9.jpg)
-![plot](Figure/predict9(1).jpg)
-
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict9.jpg" width="425"/> <img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict9(1).jpg" width="425"/>
 
 ### Wrong Prediction
 Neural Network Prediction: 6 (digit 6)  
-![plot](Figure/wrong4.jpg)
+<img src= "https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/wrong4.jpg" width="425"/>
 
 
 ## Course Links
