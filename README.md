@@ -1,4 +1,4 @@
-# Machine Learning (MATLAB) - Neural Network
+# Machine Learning (MATLAB) - Multi-class Classification and Neural Network
 
 Machine Learning course from Stanford University on Coursera.
 
