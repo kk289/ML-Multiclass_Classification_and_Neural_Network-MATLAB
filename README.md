@@ -220,7 +220,7 @@ Neural Network Prediction: 7 (digit 7)
 Neural Network Prediction: 8 (digit 8)  
 ![plot](Figure/predict8.jpg)
 
-Neural Network Prediction: 9 (digit 9 
+Neural Network Prediction: 9 (digit 9)  
 ![plot](Figure/predict9.jpg)
 ![plot](Figure/predict9(1).jpg)
 
