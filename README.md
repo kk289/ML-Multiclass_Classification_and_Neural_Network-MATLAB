@@ -72,7 +72,8 @@ In this section, we will implement a vectorized version of logistic regression t
 #### Vectorizing the cost function
 We will begin by writing a vectorized version of the cost function. 
 
-Cost Function in Unregularized logistic regresssion 
+Cost Function in Unregularized logistic regresssion
+
 ![costfunction](https://github.com/kk289/ML-Logistic_Regression-MATLAB/blob/master/Figure/costFunction.png)
 
 We will write the unregularized cost function in the file *lrcostFunction.m*. We should also use a vectorized approach for the rest of the cost function. A fully vectorized version of lrCostFunction.m should not contain any loops.
@@ -203,30 +204,29 @@ Neural Network Prediction: 2 (digit 2)
 Neural Network Prediction: 3 (digit 3)  
 ![plot](Figure/predict3.jpg)
 
-Neural Network Prediction: 4 (digit 4)
+Neural Network Prediction: 4 (digit 4)  
 ![plot](Figure/predict4.jpg)
 
-Neural Network Prediction: 5 (digit 5)
+Neural Network Prediction: 5 (digit 5)  
 ![plot](Figure/predict5.jpg)
 
-Neural Network Prediction: 6 (digit 6)
+Neural Network Prediction: 6 (digit 6)  
 ![plot](Figure/predict6.jpg)
 
-Neural Network Prediction: 7 (digit 7)
+Neural Network Prediction: 7 (digit 7)  
 ![plot](Figure/predict7.jpg)
 ![plot](Figure/predict7(1).jpg)
 
-Neural Network Prediction: 8 (digit 8)
+Neural Network Prediction: 8 (digit 8)  
 ![plot](Figure/predict8.jpg)
 
-Neural Network Prediction: 9 (digit 9
+Neural Network Prediction: 9 (digit 9 
 ![plot](Figure/predict9.jpg)
 ![plot](Figure/predict9(1).jpg)
 
 
-
 ## Wrong Prediction
-Neural Network Prediction: 6 (digit 6)
+Neural Network Prediction: 6 (digit 6)  
 ![plot](Figure/wrong4.jpg)
 
 
