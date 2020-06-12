@@ -27,16 +27,12 @@ X = [ones(m, 1) X];
 %       In particular, the max function can also return the index of the 
 %       max element, for more information see 'help max'. If your examples 
 %       are in rows, then, you can use max(A, [], 2) to obtain the max 
-%       for each row.
-%       
+%       for each row.    
 
+h = sigmoid(X * all_theta');
 
-
-
-
-
-
-% =========================================================================
-
+for(i = 1:m)
+    [dummy, p(i)] = max(h(i,:));
+end;
 
 end
