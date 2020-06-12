@@ -190,6 +190,7 @@ Initial dataset:
 ### Correct Prediction
 Neural Network Prediction: 0 (digit 0)  
 ![plot](Figure/predict0.jpg) ![plot](Figure/predict0(1).jpg)
+<img src="https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict0.jpg" width="425"/> <img src="https://github.com/kk289/ML-Neural_Network-MATLAB/blob/master/Figure/predict0(1).jpg" width ="425"/>
 
 Neural Network Prediction: 1 (digit 1)  
 ![plot](Figure/predict1.jpg)
