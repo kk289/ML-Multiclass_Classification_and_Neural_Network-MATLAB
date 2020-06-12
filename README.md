@@ -52,7 +52,7 @@ The second part of the training set is a 5000-dimensional vector y that contains
 ```
 % Load saved matrices from file
 load('ex3data1.mat');
-% The matrices X and y will now be in your Octave environment
+% The matrices X and y will now be in Octave environment
 ```
 
 ### Part 1.2: Visualizing the data
