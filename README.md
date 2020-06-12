@@ -189,8 +189,7 @@ Initial dataset:
 
 ### Correct Prediction
 Neural Network Prediction: 0 (digit 0)  
-![plot]([Figure/predict0.jpg,Figure/predict0(1).jpg])
-
+![plot](Figure/predict0.jpg)
 ![plot](Figure/predict0(1).jpg)
 
 Neural Network Prediction: 1 (digit 1)  
