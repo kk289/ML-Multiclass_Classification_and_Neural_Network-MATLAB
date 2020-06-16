@@ -1,6 +1,6 @@
 # Machine Learning (MATLAB) - Multi-class Classification and Neural Network
 
-Machine Learning course from Stanford University on Coursera.
+Machine Learning course from Stanford University on [Coursera](https://www.coursera.org/learn/machine-learning).
 
 ### Environment
 - macOS Catalina (version 10.15.3)
