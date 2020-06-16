@@ -121,6 +121,7 @@ end
 ```
 
 ##### Result
+Regularized Logistic Regression:   
 Training Set Accuracy: *95.100000*
 
 ### Part 1.4: One-vs-all Classification
