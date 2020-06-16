@@ -150,11 +150,7 @@ redictOneVsAll.m to use the one-vs-all classifier to make predictions.
 
 ##### predictOneVsAll.m - Predict using a one-vs-all multi-class classifier
 ```
-h = sigmoid(X * all_theta');
-
-for(i = 1:m)
-    [dummy, p(i)] = max(h(i,:));
-end;
+[dummy, p] = max(sigmoid(X * all_theta'), [],2);
 ```
 
 ##### Result
@@ -191,7 +187,7 @@ h = sigmoid(Theta2 * h2');
 [dummy, p] = max(h', [ ], 2);
 ```
 
-The training set accuracy is about 97.52%.
+The training set accuracy from Neural Network Prediction Function is about *97.52%*.
 
 ## Result 
 
