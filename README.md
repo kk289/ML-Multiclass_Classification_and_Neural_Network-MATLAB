@@ -157,7 +157,8 @@ for(i = 1:m)
 end;
 ```
 
-The training set accuracy is about 94.9% (i.e., it classifies 94.9% of the examples in the training set correctly).
+##### Result
+The training set accuracy is about *95.10%* (i.e., it classifies 95.10% of the examples in the training set correctly).
 
 
 
