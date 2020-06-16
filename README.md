@@ -81,7 +81,7 @@ We will write the unregularized cost function in the file *lrcostFunction.m*. We
 ##### lrCostFunction.m - Logistic regression cost function
 ```
 h = sigmoid(X * theta);
-J = (1/m) * (-y)' * log(h)-(1-y)' * log(1-h) + (lambda/(2 * m)) * sum(theta(2:end).^2);
+J = (1/m) * sum((-y)' * log(h)-(1-y)' * log(1-h));
 ```
 
 #### Vectorizing the gradient
@@ -90,7 +90,7 @@ Gradient of the unregularized logistic regression cost:
 ![gradient](https://github.com/kk289/ML-Logistic_Regression-MATLAB/blob/master/Figure/gradient.png)
 
 ```
-grad = (1/m * X' * (h - y)) + [0;(lambda/m) * theta(2:end)];
+grad = (1/m * X' * (h - y));
 ```
 
 #### Vectorizing regularized logistic regression
@@ -107,8 +107,15 @@ function [J, grad] = lrCostFunction(theta, X, y, lambda)
 m = length(y); % number of training examples
 
 h = sigmoid(X * theta);
-J = (1/m) * (-y)' * log(h)-(1-y)' * log(1-h) + (lambda/(2 * m)) * sum(theta(2:end).^2);
-grad = (1/m * X' * (h - y)) + [0;(lambda/m) * theta(2:end)];
+
+% unregularized logistic regression
+% J = (1/m) * sum((-y)' * log(h)-(1-y)' * log(1-h)) 
+
+% regularized logistic regression
+J = (1/m) * sum((-y)' * log(h)-(1-y)' * log(1-h)) + (lambda/(2 * m)) * sum(theta(2:end).^2);
+
+% regularized gradient for logistic regression
+grad = (1/m * X' * (h - y)) + [0; lambda/m * theta(2:end)];
 
 end
 ```
