@@ -33,6 +33,5 @@ h = sigmoid(X * all_theta');
 
 for(i = 1:m)
     [dummy, p(i)] = max(h(i,:));
-end;
-
+end
 end
