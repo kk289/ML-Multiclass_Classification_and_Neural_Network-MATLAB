@@ -121,7 +121,7 @@ end
 ```
 
 ##### Result
-Regularized Logistic Regression:   
+Regularized Logistic Regression:     
 Expected cost:  *2.534819*  
 Expected gradients: *0.146561*,  *-0.548558*, *0.724722*,  *1.398003*  
 
