@@ -114,7 +114,7 @@ end
 ```
 
 ##### Result
-Training Set Accuracy: *70.08*
+Training Set Accuracy: *95.100000*
 
 ### Part 1.4: One-vs-all Classification
 In this part, we will implement one-vs-all classification by training multiple regularized logistic regression classifiers, one for each of the K classes in our dataset. In the handwritten digits dataset, K = 10, but the code should work for any value of K.
