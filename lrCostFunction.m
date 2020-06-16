@@ -33,8 +33,13 @@ m = length(y); % number of training examples
 
 h = sigmoid(X * theta);
 
-J = (1/m) * (-y)' * log(h)-(1-y)' * log(1-h) + (lambda/(2 * m)) * sum(theta(2:end).^2);
+% unregularized logistic regression
+% J = (1/m) * sum((-y)' * log(h)-(1-y)' * log(1-h)) 
 
+% regularized logistic regression
+J = (1/m) * sum((-y)' * log(h)-(1-y)' * log(1-h)) + (lambda/(2 * m)) * sum(theta(2:end).^2);
+
+% regularized gradient for logistic regression
 grad = (1/m * X' * (h - y)) + [0; lambda/m * theta(2:end)];
 
 end
