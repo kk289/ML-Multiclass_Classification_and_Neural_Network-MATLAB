@@ -123,7 +123,7 @@ end
 ##### Result
 Regularized Logistic Regression:   
 Expected cost:  *2.534819*  
-Expected gradients: *0.146561*  *-0.548558* *0.724722*  *1.398003*  
+Expected gradients: *0.146561*,  *-0.548558*, *0.724722*,  *1.398003*  
 
 ### Part 1.4: One-vs-all Classification
 In this part, we will implement one-vs-all classification by training multiple regularized logistic regression classifiers, one for each of the K classes in our dataset. In the handwritten digits dataset, K = 10, but the code should work for any value of K.
